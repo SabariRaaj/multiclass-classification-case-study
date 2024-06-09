@@ -34,7 +34,7 @@ Each activity is characterized by the inputs of x acceleration, y acceleration a
 
 ## Requirements
 
-- Python 3.7 or higher
+- Python 3.9 or higher
 - Streamlit
 - TensorFlow
 - XGBoost
