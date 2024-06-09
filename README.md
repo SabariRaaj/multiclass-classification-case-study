@@ -1,10 +1,8 @@
-# multiclass-classification---case-study
-This project aims to perform multi-class classification on a dataset derived from 15 CSV files. The dataset includes several features (x, y, z) and a target label (label). The goal is to build a model that can accurately classify the target labels using various machine learning techniques.
 # Activity Classification App
 
 This project is an activity classification application built with Streamlit, TensorFlow, and XGBoost. The application predicts the type of physical activity based on input features.
 
-# Table of Contents
+## Table of Contents
 
 - Overview
 - Features
@@ -12,7 +10,7 @@ This project is an activity classification application built with Streamlit, Ten
 - Installation
 - Usage
 
-# Overview
+## Overview
 
 The Activity Classification App allows users to input activity data and classify it into different types of activities using machine learning models. The models are pre-trained and saved as `.joblib` files.
 
@@ -28,13 +26,13 @@ The classification models in this project are designed to categorize the followi
 Each activity is characterized by the inputs of x acceleration, y acceleration and z acceleration from wearable accelerometer, which are used by the models to make accurate predictions.
 
 
-# Features
+## Features
 
 - User-friendly web interface built with Streamlit
 - Classification using pre-trained XGBoost and TensorFlow models
 - Visualizations of the input data
 
-# Requirements
+## Requirements
 
 - Python 3.7 or higher
 - Streamlit
@@ -45,7 +43,7 @@ Each activity is characterized by the inputs of x acceleration, y acceleration a
 - Numpy
 - Matplotlib
 
-# Installation
+## Installation
 
 1. Clone the repository:
 
@@ -72,7 +70,7 @@ Each activity is characterized by the inputs of x acceleration, y acceleration a
 
 4. Ensure that the `models/` directory contains the pre-trained model files (`xgb_model.joblib` and `activity_model.h5`).
 
-# Usage
+## Usage
 
 To run the application, use the Streamlit command:
 
